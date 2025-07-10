@@ -18,7 +18,7 @@ const Navbar = () => {
 
 <Link href="/"><div className='flex gap-2 mt-4 ml-2'>
 <GiHabitatDome className=' size-9' />
-<span className='text-black font-bold font-mono text-3xl'>Habitr</span>
+<span className='text-black font-bold font-mono text-3xl'>Whabitr</span>
 </div></Link>
 
 
