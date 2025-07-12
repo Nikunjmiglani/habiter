@@ -109,7 +109,7 @@ export default function Dashboard() {
   }
 
   return (
-    <div className="p-4 md:p-8 max-w-7xl mx-auto font-mono">
+    <div className="p-4 mt-15 md:p-8 max-w-7xl mx-auto font-mono">
       <div className="flex flex-col sm:flex-row justify-between items-center mb-6 gap-4">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
           Habit Tracker <span className="text-blue-600">(Past {days} Days)</span>
@@ -125,7 +125,7 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* Add Habit + Filter */}
+      
       <div className="flex flex-col sm:flex-row sm:items-center gap-3 mb-6">
         <input
           type="text"
@@ -155,7 +155,7 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* Table */}
+    
       <div className="overflow-x-auto rounded-xl shadow-md">
         <table className="min-w-full border-collapse text-xs sm:text-sm">
           <thead>
