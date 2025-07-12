@@ -1,6 +1,7 @@
 import './globals.css';
 import SessionWrapper from '@/components/SessionWrapper';
 import Navbar from '@/components/Navbar';
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
   title: 'Whabitr - Track & Win',
