@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content={metadata.keywords.join(', ')} />
         <meta name="robots" content={metadata.robots} />
         <link rel="canonical" href="https://whabitr.online" />
+        <link rel="icon" href="/favicon" type="image/png" />
         <title>{metadata.title}</title>
       </head>
       <body>
@@ -36,5 +37,6 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
 
 
